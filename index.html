@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Круглосуточная ветеринарная клиника. Полный спектр услуг, опытные врачи и экстренная помощь для ваших питомцев.">
+  <title>Ветеринарная клиника VetCare — Забота и экстренная помощь</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ctext%20y%3D%22.9em%22%20font-size%3D%2290%22%3E🐾%3C%2Ftext%3E%3C%2Fsvg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-container">
+      <a href="#" class="logo">VetCare 🐾</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#doctors">Врачи</a></li>
+          <li><a href="#emergency">Экстренная помощь</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-content">
+        <h1>Профессиональная забота о вашем питомце</h1>
+        <p>Круглосуточная ветеринарная помощь, диагностика и лечение с любовью и вниманием.</p>
+        <a href="#contacts" class="btn">Записаться на приём</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>О нашей клинике</h2>
+        <div class="about-grid">
+          <article class="about-card">
+            <h3>Современное оборудование</h3>
+            <p>Используем передовые методы диагностики, УЗИ, цифровой рентген и собственную лабораторию.</p>
+          </article>
+          <article class="about-card">
+            <h3>Опытные специалисты</h3>
+            <p>Наши врачи регулярно проходят повышение квалификации и искренне любят животных.</p>
+          </article>
+          <article class="about-card">
+            <h3>Забота без стресса</h3>
+            <p>Индивидуальный подход к каждому пациенту для минимального волнения во время осмотра.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section-alt">
+      <div class="container">
+        <h2>Наши услуги</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Терапия и осмотр</h3>
+            <p>Первичный приём, вакцинация, чипирование и профилактические осмотры.</p>
+          </article>
+          <article class="service-card">
+            <h3>Хирургия</h3>
+            <p>Плановые и экстренные операции любой сложности с надежной анестезией.</p>
+          </article>
+          <article class="service-card">
+            <h3>Лаборатория</h3>
+            <p>Быстрые и точные анализы крови, мочи и биоматериалов за 30 минут.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="doctors" class="section">
+      <div class="container">
+        <h2>Наши врачи</h2>
+        <div class="doctors-grid">
+          <article class="doctor-card">
+            <img src="images/doctor1.jpg" alt="Просто прикольное фото врача">
+            <h3>Асқар Асқаров</h3>
+            <p>Главный врач, терапевт</p>
+          </article>
+          <article class="doctor-card">
+            <img src="images/doctor2.jpg" alt="Chill guy from tt">
+            <h3>Алуа Алмасқызы </h3>
+            <p>Ветеринарный хирург, ортопед</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="emergency" class="section emergency-section">
+      <div class="container">
+        <h2>Экстренная помощь 24/7</h2>
+        <p>Если вашему питомцу стало плохо — не ждите. Наша бригада готова принять экстренного пациента в любое время суток.</p>
+        <a href="tel:+77000000000" class="btn btn-emergency">Позвонить в круглосуточную службу</a>
+      </div>
+    </section>
+
+    <section id="contacts" class="section section-alt">
+      <div class="container">
+        <h2>Связаться с нами</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="user-name">Ваше имя *</label>
+            <input type="text" id="user-name" name="name" placeholder="Напишите ваше имя" required>
+          </div>
+          <div class="form-group">
+            <label for="user-email">Ваш Email *</label>
+            <input type="email" id="user-email" name="email" placeholder="example@mail.com" required>
+          </div>
+          <div class="form-group">
+            <label for="user-message">Сообщение *</label>
+            <textarea id="user-message" name="message" rows="5" placeholder="Опишите проблему или укажите удобное время для записи" required></textarea>
+          </div>
+          <button type="submit" class="btn">Отправить заявку</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 VetCare. Все права защищены.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
