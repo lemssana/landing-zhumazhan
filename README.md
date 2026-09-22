@@ -1,51 +1,51 @@
-# Landing Page — Ветеринарная клиника VetCare
+# Landing Page — VetCare Veterinary Clinic
 
-**Автор:** Жумажан Ақерке  
-**Группа:** IT1-2305  
-**Трек:** B (Bootstrap 5)  
-**Репозиторий:** [github.com/lemssana/landing-zhumazhan](https://github.com/lemssana/landing-zhumazhan)  
-**Живой сайт:** [lemssana.github.io/landing-zhumazhan](https://lemssana.github.io/landing-zhumazhan/)  
-
----
-
-## Описание проекта
-
-Обновленный одностраничный сайт (лендинг) ветеринарной клиники VetCare. Проект переверстан на фреймворке Bootstrap 5 в журнальном минималистичном стиле с использованием шрифта Playfair Display и сетки компонентов.
+**Author:** Akerke Zhumazhan  
+**Group:** IT1-2305  
+**Track:** B (Bootstrap 5)  
+**Repository:** [github.com/lemssana/landing-zhumazhan](https://github.com/lemssana/landing-zhumazhan)  
+**Live Site:** [lemssana.github.io/landing-zhumazhan](https://lemssana.github.io/landing-zhumazhan/)  
 
 ---
 
-## Адаптив
+## Project Description
 
-Сайт адаптирован под три основные ширины экранов:
-* **Мобильные устройства (375 px):** меню навигации сворачивается в бургер-кнопку (`Navbar Toggler`), карточки услуг, врачей и отзывов выстраиваются в одну колонку (`col-12`).
-* **Планшеты (768 px):** карточки перестраиваются в 2 колонки (`col-md-6`).
-* **Десктоп (1280 px):** навигация развернута полностью, карточки располагаются по 3 и 4 в ряд (`col-lg-4`, `col-lg-3`).
+An updated landing page for the VetCare veterinary clinic. The project was re-designed using the Bootstrap 5 framework in a editorial minimalist style, utilizing Playfair Display typography and a structured component grid.
 
-### Скриншоты адаптивности
+---
 
-#### 375 px (Мобильная версия)
+## Responsive Layout
+
+The site is fully responsive across three primary screen width breakpoints:
+* **Mobile (375 px):** The navigation menu collapses into a hamburger toggle (`Navbar Toggler`), while service cards, doctor profiles, and reviews stack into a single column (`col-12`).
+* **Tablet (768 px):** Cards adaptively rearrange into 2 columns (`col-md-6`).
+* **Desktop (1280 px):** Full navigation is expanded, and content cards are distributed into 3 and 4 columns (`col-lg-4`, `col-lg-3`).
+
+### Responsive Screenshots
+
+#### Phone — 375 px
 <p align="center">
-  <img src="screenshots/375.jpg" width="300" alt="Мобильная версия 375px">
+  <img src="screenshots/375.jpg" width="300" alt="Mobile 375px preview">
 </p>
 
-#### 768 px (Планшетная версия)
+#### Tablet — 768 px
 <p align="center">
-  <img src="screenshots/768.jpg" width="500" alt="Планшетная версия 768px">
+  <img src="screenshots/768.jpg" width="500" alt="Tablet 768px preview">
 </p>
 
-#### 1280 px (Десктопная версия)
+#### Desktop — 1280 px
 <p align="center">
-  <img src="screenshots/1280.jpg" width="800" alt="Десктопная версия 1280px">
+  <img src="screenshots/1280.jpg" width="800" alt="Desktop 1280px preview">
 </p>
 
 ---
 
-## Почему этот инструмент (Bootstrap 5)
+## Why Bootstrap 5
 
-Использование Bootstrap 5 существенно ускоряет процесс верстки адаптивных веб-страниц благодаря готовой системе сетки и набору гибких компонентов. Мощная Flexbox-сетка (`container`, `row`, `col-*`) позволяет настраивать адаптивное поведение элементов под любые ширины экранов без написания с нуля громоздких `@media` запросов в CSS. Готовый компонент `Navbar` с JS-интеграцией решает задачу мобильного меню-бургера в несколько классов. Основным нюансом фреймворка является необходимость аккуратно переопределять стандартные стили, однако использование кастомных CSS-переменных позволяет адаптировать внешний вид сайта под любой дизайн без жесткого перекрытия правил с помощью `!important`. В отличие от чистого CSS, Bootstrap дает готовую структуру, а по сравнению с Tailwind — предлагает более высокоуровневые компоненты.
+Using Bootstrap 5 significantly accelerates adaptive web development through its built-in grid system and flexible components. The powerful Flexbox grid (`container`, `row`, `col-*`) enables seamless layout adaptation across various screen sizes without writing complex `@media` queries from scratch. The pre-built `Navbar` component with JavaScript integration resolves mobile menu handling in just a few utility classes. Although overriding default styles requires careful CSS handling, leveraging custom CSS variables allows easy design customization without relying on heavy `!important` rules. Compared to vanilla CSS, Bootstrap provides a structured foundation, while relative to Tailwind, it offers higher-level ready-to-use components.
 
 ---
 
-## Использованные инструменты ИИ
+## AI Tools Used
 
-**Gemini / ChatGPT:** оптимизация структуры компонентов Bootstrap 5, помог с формулировками разделов "Почему этот инструмент" и стилизацией интерфейса.
+**Gemini / ChatGPT:** Assisted in optimizing the Bootstrap 5 component architecture, refining the technical rationale for the framework choice, and polishing UI styling.
