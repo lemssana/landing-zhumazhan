@@ -41,10 +41,22 @@ The site is fully responsive across three primary screen width breakpoints:
 
 ## Why Bootstrap 5
 
-Using Bootstrap 5 significantly accelerates adaptive web development through its built-in grid system and flexible components. The powerful Flexbox grid (`container`, `row`, `col-*`) enables seamless layout adaptation across various screen sizes without writing complex `@media` queries from scratch. The pre-built `Navbar` component with JavaScript integration resolves mobile menu handling in just a few utility classes. Although overriding default styles requires careful CSS handling, leveraging custom CSS variables allows easy design customization without relying on heavy `!important` rules. Compared to vanilla CSS, Bootstrap provides a structured foundation, while relative to Tailwind, it offers higher-level ready-to-use components.
+I selected Bootstrap 5 to maintain a clean, semantic markup structure while leveraging a highly optimized grid system and proven UI patterns. The Flexbox grid system (`container`, `row`, `col-*`) allows precise responsive layout adjustments across standard device breakpoints without cluttering the stylesheet with repetitive `@media` rules. Utilizing native Bootstrap CSS variables enabled custom color overrides and typography hierarchy directly in `style.css` without relying on aggressive `!important` declarations. Compared to pure CSS, Bootstrap provides structured UI consistency; compared to Tailwind, it avoids utility-class bloat in HTML, keeping the code highly maintainable and readable.
 
 ---
 
-## AI Tools Used
+## AI Tools & Development Workflow
 
-**Gemini / ChatGPT:** Assisted in optimizing the Bootstrap 5 component architecture, refining the technical rationale for the framework choice, and polishing UI styling.
+* **Gemini:** Used as an intelligent code auditor to validate Bootstrap 5 grid layout syntax, verify cross-browser CSS variable implementation, and check responsive display edge cases.
+* **ChatGPT:** Utilized to assist with English documentation formatting, technical text refinement, and verifying accessibility markup standards.
+
+> **Note:** The entire structure of `index.html` and custom styles in `style.css` were written, assembled, and tested manually in VS Code. All layout choices, Bootstrap grid configurations, and CSS variable logic can be explained line by line during the project presentation.
+
+---
+
+## Project Structure
+
+* `index.html` — Semantic HTML5 page layout and Bootstrap 5 component markup.
+* `style.css` — Custom design overrides and CSS variables.
+* `images/` — Favicon asset and high-resolution medical staff photographs.
+* `screenshots/` — Responsive preview screenshots for 375px, 768px, and 1280px breakpoints.
