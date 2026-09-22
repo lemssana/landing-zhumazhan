@@ -25,19 +25,18 @@ The site is fully responsive across three primary screen width breakpoints:
 
 #### Phone — 375 px
 <p align="center">
-  <img src="screenshots/375.jpg" width="300" alt="Mobile 375px preview">
+  <img src="screenshots/375.png" width="300" alt="Mobile 375px preview">
 </p>
 
 #### Tablet — 768 px
 <p align="center">
-  <img src="screenshots/768.jpg" width="500" alt="Tablet 768px preview">
+  <img src="screenshots/768.png" width="500" alt="Tablet 768px preview">
 </p>
 
 #### Desktop — 1280 px
 <p align="center">
-  <img src="screenshots/1280.jpg" width="800" alt="Desktop 1280px preview">
+  <img src="screenshots/1280.png" width="800" alt="Desktop 1280px preview">
 </p>
-
 ---
 
 ## Why Bootstrap 5
