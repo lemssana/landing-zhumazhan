@@ -1,0 +1,113 @@
+:root {
+  --bg-cream: #ffffff;
+  --text-dark: #1a1a1a;
+  --accent-green: #1b4d3e;
+  --accent-green-hover: #13382d;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text-dark);
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.serif-font {
+  font-family: var(--font-serif);
+}
+
+.bg-cream {
+  background-color: var(--bg-cream);
+}
+
+.text-accent {
+  color: #52b788;
+}
+
+.fs-7 {
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.tracking-wide {
+  letter-spacing: 0.1em;
+}
+
+.py-6 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Header & Brand */
+.brand-logo {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
+  color: var(--text-dark);
+  text-decoration: none;
+}
+
+.brand-subtext {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  color: #718096;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  color: var(--text-dark) !important;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+/* Hero Section */
+.hero-section {
+  min-height: 85vh;
+  background: linear-gradient(rgba(20, 20, 20, 0.65), rgba(20, 20, 20, 0.65)), 
+              url('https://images.unsplash.com/photo-1548767797-d8c844163c4c?w=1600&q=80') center/cover no-repeat;
+}
+
+.custom-hero-text {
+  max-width: 600px;
+}
+
+/* Buttons */
+.btn-accent {
+  background-color: var(--accent-green);
+  color: #ffffff;
+  border: none;
+}
+
+.btn-accent:hover {
+  background-color: var(--accent-green-hover);
+  color: #ffffff;
+}
+
+.btn-dark-custom {
+  background-color: var(--text-dark);
+  color: #ffffff;
+  border: none;
+}
+
+.btn-dark-custom:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+
+.doctor-photo {
+  height: 320px;
+  object-fit: cover;
+}
+
+/* Form Controls */
+.form-control:focus {
+  border-color: var(--text-dark);
+  box-shadow: none;
+}
